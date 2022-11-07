@@ -98,6 +98,8 @@ select *, (running_total_of_vacc/population)*100 as percent_vacctd
 from popvac
 where location ='India';
 
+-- executing the View PercentPopulationVaccinated
+
 select * from PercentPopulationVaccinated;
 
 
